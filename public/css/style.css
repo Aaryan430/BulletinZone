@@ -1,0 +1,131 @@
+.navbar-brand{
+    color: beige;
+}
+
+body{
+    /* background-color:aqua; */
+    background-color: #B1E1FF;
+    text-align: center;   
+    height: auto;
+}
+
+.mainImg{
+    height: 10rem;
+    margin: 3% 3%;
+    border-radius: 8px;
+}
+
+h1{
+    font-family: 'Calistoga', cursive;
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+div{
+    display: inline-flex;
+}
+
+.news{
+    padding-right: 4%;
+}
+.weather{
+    padding-right: 4%;
+    margin-left: 7%;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  input{
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  select {
+    /* width: 100%; */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+.bton{
+    padding: 7px 14px;
+    border-radius: 8px;
+    border: 2px solid #4CAF50;
+    font-family: 'Calistoga', cursive;
+}
+
+.bton:hover {
+    background-color:darkslateblue; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+h2{
+    font-family: 'Acme', sans-serif;
+}
+
+label{
+    font-family: 'Crete Round', serif;
+    font-size: 1.2rem;
+}
+
+.cat{
+    margin-right: 10px;
+}
+
+
+#footer{
+    background-color: #212529;
+    /* background-color: #101010; */
+    text-align: center;
+    padding: 0.5% 1%;
+    line-height: 2;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+.footerDesc{
+    color: #fff;
+}
+.fa-brands,.mail{
+    color: white;
+    padding: 1% 1%;
+}
+
+.fa-brands:hover{
+    color: coral;
+}
+
+.mail:hover{
+    color: coral;
+}
+
+.footerDesc:hover{
+    font-weight: bold;
+    color: greenyellow;
+}
+
+@media(max-width:1212px) and (min-width:695px){
+    .news{
+        margin-top: 2%;
+        padding: 2%;
+    }
+}
+
+@media(max-width:695px){
+    .news{
+        margin-top: 2%;
+        padding: 2%;
+    }
+    .cat{
+        text-align: center;
+        margin: 4%;
+        width: 70%;
+    }
+    .lange{
+        padding: 2%;
+    }
+}

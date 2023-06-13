@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<script
+src="https://kit.fontawesome.com/319140f4de.js"
+crossorigin="anonymous"
+></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Calistoga&family=Crete+Round&family=Patua+One&family=Rozha+One&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/images/favicon2.png" type="image/x-icon">
+    <title>newsapp</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/images/favicon2.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Bulletin Zone
+          </a>
+        </div>
+      </nav>
+
+      <img class="mainImg" src="/images/logo2.png" alt="" srcset="">
+      <h1>Welcome to newsApp & weatherApp</h1>
+
+      <div class="weather">
+        <form action="/weather" method="post">
+        <h2>Check the Weather</h2>
+            <label for="cityInp">City Name:</label>
+            <input id="cityInp" type="text" name="city" placeholder="Enter the city">
+            <button class="bton" type="submit">Go</button>
+        </form>
+      </div>
+
+      <div class="news">
+        <form action="/" method="post">
+        <h2>Check the News</h2>
+            <label for="categoryInp">Category</label>
+            <select class="cat" name="Category" id="categ">
+                <option value="">--Please choose category--</option>
+              <option value="business">Business</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="environment">Environment</option>
+              <option value="food">Food</option>
+              <option value="health">Health</option>
+              <option value="politics">Politics</option>
+              <option value="science">Science</option>
+              <option value="sports">Sports</option>
+              <option value="technology">Technologys</option>
+              <option value="top">Top</option>
+              <option value="world">World</option>
+            </select>
+            <label class="lange" for="langaugeInp">Langauge</label>
+            <select name="Language" id="lang">
+            <option value="">--Please choose Langauge--</option>
+              <option value="en">English</option>
+              <option value="hi">Hindi</option>
+            </select>
+            <br><br>
+            <!-- <input type="submit" value="Submit"> -->
+            <button class="bton" type="submit">Search</button>
+        </form>
+      </div>
+
+
+      <footer id="footer">
+        <a href="https://www.facebook.com/profile.php?id=100008724402903" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/abhisheksophiya?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:sophiyaabhi101@gmail.com" target="_blank"><i class="mail fa-solid fa-envelope"></i></a>
+        <p class="footerDesc">Made with ❤ Abhishek Sophiya</p>
+        <p class="footerDesc">© 2022 Copyright</p>
+      </footer>
+<!-- https://ipinfo.io/json?token=a7f1c842f90385 -->
+</body>
+</html>

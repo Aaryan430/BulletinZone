@@ -1,0 +1,21 @@
+body{
+    background-color: #EEF2FF;
+    margin: 0% 3% 3% 3%;
+}
+
+h2{
+    font-size: 2rem;
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: darkslategray;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    left: auto;
+    margin-left: 0%;
+}

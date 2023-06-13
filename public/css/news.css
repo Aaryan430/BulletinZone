@@ -1,0 +1,17 @@
+body{
+    background-color: #EEF2FF;
+    margin: 0% 3% 3% 3%;
+}
+
+h3{
+    color: #040303;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: larger;
+}
+h2{
+    font-size: 2rem;
+    color: darkslategray;
+}
